@@ -19354,6 +19354,9 @@ iframe, object, embed, iframe, object, iframe, video {
 /*-- End max-width: 991px--*/
 /*-- max-width: 767px--*/
 @media screen and (max-width: 767px) {
+  .preloader-inner .loading-text {
+    font-size: 20px;
+  }
   .theme_slider_3 .swiper-slide .slider .slide_content {
     max-width: 100%;
   }
