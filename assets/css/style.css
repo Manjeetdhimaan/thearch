@@ -42,6 +42,11 @@
   font-style: normal;
 }
 
+html, body {
+  overflow-x: hidden;
+  transform: translate3d(0,0,0);
+}
+
 .bg-dark-100 {
   background: #1b1b1b;
 }
