@@ -45,6 +45,10 @@
 html, body {
   overflow-x: hidden;
   transform: translate3d(0,0,0);
+  /* transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden; */
 }
 
 .bg-dark-100 {
@@ -99,6 +103,26 @@ html, body {
   background: #a18971;
 }
 
+.bg-olive-500 {
+  background: #EAAE55;
+}
+
+.bg-lilac {
+  background: #AA98A9;
+}
+
+.bg-pastel-green {
+  background: #C1E1C1;
+}
+
+.bg-pastel-grey {
+  background: #e6e6e6;
+}
+
+.bg-peach {
+  background: #FFE5B4;
+}
+
 .text-dark-100 {
   color: #1b1b1b;
 }
@@ -146,9 +170,20 @@ html, body {
 .text-light {
   color: #f8f8f8;
 }
+.text-lilac {
+  color: #a690a5;
+}
 
 .text-olive {
   color: #a18971;
+}
+
+.text-pastel-green {
+  color: #bfe6bf;
+}
+
+.text-peach {
+  color: #f7d9a1;
 }
 
 /*!
@@ -159,6 +194,11 @@ html, body {
  */
 :root {
   --arch-dark: #1b1b1b;
+  --arch-bg-lilac:#AA98A9;
+  
+  --arch-bg-pastel-green: #C1E1C1;
+  
+  --arch-bg-pastel-grey: #CACACA;
   --arch-black: #000000;
   --arch-white: #ffffff;
   --arch-gray: #f2f2f2;
@@ -11537,7 +11577,7 @@ label {
   top: 0;
   right: 0;
   width: 100%;
-  background-color: transparent;
+  background-color: black;
   z-index: 9;
   transition: all 0.5s ease-in-out;
 }
@@ -15745,7 +15785,8 @@ label {
 }
 
 .icon_box h6, .icon_box .h6 {
-  color: #a18971;
+  /* color: #a18971; */
+  color: black;
   margin-bottom: 8px;
   transition: all 0.5s ease-in-out;
 }
@@ -15918,7 +15959,8 @@ label {
 
 .icon_box_flex h6, .icon_box_flex .h6 {
   margin-left: 15px;
-  color: #b2b2b2;
+  /* color: #b2b2b2; */
+  color: black;
 }
 
 .icon_box_flex .icon_size {
@@ -18276,7 +18318,8 @@ label {
   width: 1px;
   height: 100%;
   display: inline-block;
-  background-color: #2e2e2e;
+  /* background-color: #2e2e2e; */
+  background-color: var(--arch-bg-lilac);
   mix-blend-mode: difference;
 }
 
@@ -18288,7 +18331,8 @@ label {
   width: 1px;
   height: 60px;
   background: white;
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+  /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%); */
+  background-color: var(bg-);
   animation: gridanim 25s linear infinite;
 }
 
