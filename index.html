@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
     <!-- Meta Tags -->
@@ -16,6 +16,14 @@
     <link href="assets/img/apple-touch-icon-144x144.html" rel="apple-touch-icon" sizes="144x144">
     <!-- Page Title -->
     <title>The Arch - Modern Architecture Designer</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <!-- Styles Include -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -25,9 +33,9 @@
     <!-- Preloader -->
     <div id="preloader">
         <div class="preloader-inner">
-            <!--  <div class="spinner"></div> -->
-            <img src="assets/img/logo/logo.png" width="350" alt="spinner logo">
-            <div class="loading-text">
+             <!-- <div class="spinner"></div> -->
+            <img src="assets/img/logo/logo.png" class="animate__animated animate__zoomInDown animate__slower" width="350" alt="spinner logo">
+            <div class="loading-text animate__animated animate__heartBeat animate__slower">
                 <span data-preloader-text="T" class="characters">T</span>
 
                 <span data-preloader-text="H" class="characters">H</span>
@@ -45,7 +53,7 @@
         </div>
     </div>
     <!-- Color Mode Switcher -->
-
+s
     <!-- Cursor Effect -->
     <div class="pointer bnz-pointer" id="bnz-pointer"></div>
     <!-- Header -->
@@ -108,7 +116,7 @@
             </div>
             <div class="social_sites">
                 <ul class="d-flex align-items-center justify-content-center">
-                    <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li><a href="#" class="facebook"><i class="bi bi-facebook"></i></a></li>
                     <li><a href="#"><i class="bi bi-twitter"></i></a></li>
                     <li><a href="#"><i class="bi bi-instagram"></i></a></li>
                     <li><a href="#"><i class="bi bi-youtube"></i></a></li>
@@ -129,13 +137,13 @@
                                     <div class="slide_content_wrapper mb-0 h-auto bg-lilac">
                                         <div class="slide_content_inner">
                                             <div class="meta m-0">
-                                                <div class="category text-olive text-uppercase">Condominium</div>
+                                                <div class="category text-light text-uppercase">Condominium</div>
                                             </div>
                                             <h4><a href="project-details.html" class="text-dark">California young menz
                                                     club in the city center</a></h4>
                                             <div class="details_link">
-                                                <a href="project-details.html">
-                                                    <span class="link_text">View Details</span>
+                                                <a href="project-details.html" class="text-light">
+                                                    <span class="link_text" class="text-light">View Details</span>
                                                     <span class="link_icon">
                                                         <span class="line"></span>
                                                         <span class="circle"></span>
@@ -214,55 +222,6 @@
             <div class="divider_bg bg-lilac"></div>
         </div>
 
-        <section class="services bg-lilac pt-4 pb-0">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500">
-                        <div class="icon_box">
-                            <h6>01</h6>
-                            <img src="assets/img/icon_box/d1.svg" alt="Icon Box" class="dark">
-                            <img src="assets/img/icon_box/d1-light.svg" alt="Icon Box" class="light">
-                            <h4 class="text-white"><a href="service-details.html">Architectural</a></h4>
-                            <p class="text-dark">The Arch Architects is a full-service design firm providing
-                                architecture, master planning, urban design, interior architecture.</p>
-                            <div class="arrow_effect">
-                                <a href="service-details.html"><span class="crossline1"></span><span
-                                        class="crossline2"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="700">
-                        <div class="icon_box">
-                            <h6>02</h6>
-                            <img src="assets/img/icon_box/d1.svg" alt="Icon Box" class="dark">
-                            <img src="assets/img/icon_box/d1-light.svg" alt="Icon Box" class="light">
-                            <h4 class="text-white"><a href="service-details.html">Interior Design</a></h4>
-                            <p class="text-dark">The Arch Architects is a full-service design firm providing
-                                architecture, master planning, urban design, interior architecture.</p>
-                            <div class="arrow_effect">
-                                <a href="service-details.html"><span class="crossline1"></span><span
-                                        class="crossline2"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="900">
-                        <div class="icon_box">
-                            <h6>03</h6>
-                            <img src="assets/img/icon_box/d1.svg" alt="Icon Box" class="dark">
-                            <img src="assets/img/icon_box/d1-light.svg" alt="Icon Box" class="light">
-                            <h4 class="text-white"><a href="service-details.html">Landscape Design</a></h4>
-                            <p class="text-dark">The Arch Architects is a full-service design firm providing
-                                architecture, master planning, urban design, interior architecture.</p>
-                            <div class="arrow_effect">
-                                <a href="service-details.html"><span class="crossline1"></span><span
-                                        class="crossline2"></span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section class="about bg-lilac">
             <div class="large_font">
                 <h2 class="floating_element text-lilac d-flex justify-content-center" data-aos="fade-right"
@@ -332,6 +291,57 @@
                 </div>
             </div>
         </section>
+
+        <section class="services bg-lilac pt-4 pb-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="500">
+                        <div class="icon_box">
+                            <h6>01</h6>
+                            <img src="assets/img/icon_box/d1.svg" alt="Icon Box" class="dark">
+                            <img src="assets/img/icon_box/d1-light.svg" alt="Icon Box" class="light">
+                            <h4 class="text-white"><a href="service-details.html">Architectural</a></h4>
+                            <p class="text-dark">The Arch Architects is a full-service design firm providing
+                                architecture, master planning, urban design, interior architecture.</p>
+                            <div class="arrow_effect">
+                                <a href="service-details.html"><span class="crossline1"></span><span
+                                        class="crossline2"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="700">
+                        <div class="icon_box">
+                            <h6>02</h6>
+                            <img src="assets/img/icon_box/d1.svg" alt="Icon Box" class="dark">
+                            <img src="assets/img/icon_box/d1-light.svg" alt="Icon Box" class="light">
+                            <h4 class="text-white"><a href="service-details.html">Interior Design</a></h4>
+                            <p class="text-dark">The Arch Architects is a full-service design firm providing
+                                architecture, master planning, urban design, interior architecture.</p>
+                            <div class="arrow_effect">
+                                <a href="service-details.html"><span class="crossline1"></span><span
+                                        class="crossline2"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos="fade-up" data-aos-duration="900">
+                        <div class="icon_box">
+                            <h6>03</h6>
+                            <img src="assets/img/icon_box/d1.svg" alt="Icon Box" class="dark">
+                            <img src="assets/img/icon_box/d1-light.svg" alt="Icon Box" class="light">
+                            <h4 class="text-white"><a href="service-details.html">Landscape Design</a></h4>
+                            <p class="text-dark">The Arch Architects is a full-service design firm providing
+                                architecture, master planning, urban design, interior architecture.</p>
+                            <div class="arrow_effect">
+                                <a href="service-details.html"><span class="crossline1"></span><span
+                                        class="crossline2"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     
 
         <section class="funfacts bg_1" id="funfacts">
             <div class="container">
@@ -664,7 +674,7 @@
                     </div>
                 </div>
                 <div class="btn_group mt-4 w-100 text-center">
-                    <button id="load-more" class="btn olive w-100">Show More Project(s)</button>
+                    <button id="load-more" class="btn bg-lilac w-100">Show More Project(s)</button>
                 </div>
             </div>
         </section>
@@ -787,7 +797,7 @@
                                 <textarea class="form-control pt-4" name="message" id="message"
                                     placeholder="Your Message" rows="3"></textarea>
                                 <div class="btn_group">
-                                    <button type="submit" class="btn olive">Send Mail</button>
+                                    <button type="submit" class="btn bg-lilac">Send Mail</button>
                                 </div>
                             </form>
                         </div>
@@ -954,6 +964,7 @@
 
     <!-- Theme Custom JS -->
     <script src="assets/js/theme.js"></script>
+
 </body>
 
 </html>

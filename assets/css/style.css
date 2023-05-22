@@ -42,15 +42,6 @@
   font-style: normal;
 }
 
-html, body {
-  overflow-x: hidden;
-  transform: translate3d(0,0,0);
-  /* transform-style: preserve-3d;
-  -webkit-transform-style: preserve-3d;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden; */
-}
-
 .bg-dark-100 {
   background: #1b1b1b;
 }
@@ -102,7 +93,6 @@ html, body {
 .bg-olive {
   background: #a18971;
 }
-
 .bg-olive-500 {
   background: #EAAE55;
 }
@@ -195,9 +185,7 @@ html, body {
 :root {
   --arch-dark: #1b1b1b;
   --arch-bg-lilac:#AA98A9;
-  
   --arch-bg-pastel-green: #C1E1C1;
-  
   --arch-bg-pastel-grey: #CACACA;
   --arch-black: #000000;
   --arch-white: #ffffff;
@@ -11607,6 +11595,8 @@ label {
 .header .logo {
   position: relative;
   flex-shrink: 0;
+  background-color: #C1E1C1;
+  padding: 10px
 }
 
 .header .logo a {
@@ -15535,6 +15525,10 @@ label {
   border-radius: 100%;
 }
 
+.footer .footer_inner .footer_social .social_list li a.facebook {
+  background: #4267B2!important;
+}
+
 .footer .footer_inner .footer_social .social_list li a:hover {
   color: #a18971;
 }
@@ -18318,8 +18312,7 @@ label {
   width: 1px;
   height: 100%;
   display: inline-block;
-  /* background-color: #2e2e2e; */
-  background-color: var(--arch-bg-lilac);
+  background-color: #2e2e2e;
   mix-blend-mode: difference;
 }
 
@@ -18331,8 +18324,7 @@ label {
   width: 1px;
   height: 60px;
   background: white;
-  /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%); */
-  background-color: var(bg-);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
   animation: gridanim 25s linear infinite;
 }
 
@@ -19186,7 +19178,6 @@ iframe, object, embed, iframe, object, iframe, video {
   position: relative;
   display: inline-block;
   color: rgba(255, 255, 255, 0.2);
-  /* color: red; */
 }
 
 .preloader-inner .loading-text .characters:before {
@@ -19403,9 +19394,6 @@ iframe, object, embed, iframe, object, iframe, video {
 /*-- End max-width: 991px--*/
 /*-- max-width: 767px--*/
 @media screen and (max-width: 767px) {
-  .preloader-inner .loading-text {
-    font-size: 20px;
-  }
   .theme_slider_3 .swiper-slide .slider .slide_content {
     max-width: 100%;
   }
