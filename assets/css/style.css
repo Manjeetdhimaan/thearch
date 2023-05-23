@@ -11595,8 +11595,8 @@ label {
 .header .logo {
   position: relative;
   flex-shrink: 0;
-  background-color: #C1E1C1;
-  padding: 10px
+  /* background-color: #C1E1C1;
+  padding: 10px */
 }
 
 .header .logo a {
