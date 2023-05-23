@@ -98,7 +98,7 @@
 }
 
 .bg-lilac {
-  background: #AA98A9;
+  background: #AA98A9!important;
 }
 
 .bg-pastel-green {
@@ -11657,7 +11657,7 @@ label {
 }
 
 .header .mainnav ul.main_menu li.current > a, .header .mainnav ul.main_menu li.active > a, .header .mainnav ul.main_menu li:hover > a {
-  color: #a18971;
+  color: #AA98A9;
 }
 
 .header .mainnav ul.main_menu li ul {
@@ -15969,8 +15969,8 @@ label {
 
 .icon_box_flex h6, .icon_box_flex .h6 {
   margin-left: 15px;
-  /* color: #b2b2b2; */
-  color: black;
+  color: #b2b2b2;
+  /* color: black; */
 }
 
 .icon_box_flex .icon_size {
