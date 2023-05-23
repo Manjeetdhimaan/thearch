@@ -15516,7 +15516,7 @@ label {
   font-size: 0.875rem;
   text-align: center;
   color: #ffffff;
-  background: #2e2e2e;
+  /* background: #2e2e2e; */
   display: block;
   outline: none;
   width: 1.875rem;
@@ -15525,8 +15525,24 @@ label {
   border-radius: 100%;
 }
 
-.footer .footer_inner .footer_social .social_list li a.facebook {
-  background: #4267B2!important;
+.facebook {
+  background: #4267B2;
+  border-radius:50%;
+}
+
+.twitter {
+  background: #1DA1F2;
+  border-radius:50%;
+}
+
+.instagram {
+  background: linear-gradient(#f9ce34, #ee2a7b, #6228d7);
+  border-radius:50%;
+}
+
+.youtube {
+  background: red;
+  border-radius:50%;
 }
 
 .footer .footer_inner .footer_social .social_list li a:hover {
