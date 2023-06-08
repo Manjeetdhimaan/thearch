@@ -19186,7 +19186,7 @@ iframe, object, embed, iframe, object, iframe, video {
   line-height: 60px;
   text-align: center;
   user-select: none;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 #preloader.hide .preloader-inner .loading-text {
@@ -20410,3 +20410,234 @@ body.bg-dark.bg-white .under-construction-page .under-construction-content .sear
 }
 /*# sourceMappingURL=style.css.map */
 
+.banner-home {
+
+    background: #000;
+
+}
+
+.banner-home{position:relative; width:100%; height:100vh; background-size: cover;}
+.banner-home .owl-carousel .item img{width:100%; height:100vh; background-size: cover;}
+
+.banner-home .owl-carousel {
+    width: 100%;
+}
+
+.banner-home .owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+}
+.banner-home .owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+.banner-home .owl-carousel .owl-wrapper, .owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+}
+em{font-style:normal !important;}
+
+sup{font-size:10px;margin-left:2px;}
+@-webkit-keyframes zoomin{
+    0%{transform:scale(1);}
+    50%{transform:scale(1.2);}
+    100%{transform:scale(1);}
+    }
+    @keyframes zoomin{
+        0%{transform:scale(1);}
+        50%{transform:scale(1.2);}
+        100%{transform:scale(1);}
+        }
+        @-webkit-keyframes zoomout{
+            0%{transform:scale(1);}
+            50%{transform:scale(0.8);}
+            100%{transform:scale(1);}
+            }
+            @keyframes zoomout{
+                0%{transform:scale(1);}
+                50%{transform:scale(0.8);}
+                100%{transform:scale(1);}
+                }
+.zoomBannerImage{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-animation:zoomin 20s ease-in infinite;animation:zoomin 20s ease-in infinite;transition:all 20s ease-in-out;}
+
+/*#home-banner .item:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 9;
+    background: url(../images/banner_tp_shodow1.png) repeat-x top center;
+    background-size: 100%;
+}*/
+#home-banner .item:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: 9;
+    background: url(../images/banner_tp_shodow1.png) repeat top center;
+    /* background-size: 100%; */
+}
+/*#home-banner .item:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    content: "";
+    z-index: 9;
+    background: url(../images/banner_bt_shodow1.png) repeat bottom center;
+    background-size: 100%;
+}*/
+#home-banner .item:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 191px;
+    content: "";
+    z-index: 9;
+    background: url(../images/banner_bt_shodow1.png) repeat-x bottom center;
+    margin-bottom: -2px;
+    /* background-size: 100%; */
+}
+#home-banner .item {
+    position: relative;
+}
+
+#home-banner button.owl-prev {
+    background-color: transparent;
+    border: 0;
+    cursor: url(../images/arrow-l-white.png),auto;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-indent: -99999px;
+    top: 0;
+    width: 20%;
+    z-index: 2;
+    border: 0 !important;
+    outline: 0px !important;
+    font-size: 0;
+}
+#home-banner button.owl-next {
+    background-color: transparent;
+    border: 0;
+    cursor: url(../images/arrow-r-white.png),auto;
+    height: 100%;
+    right: 0;
+    position: absolute;
+    text-indent: -99999px;
+    top: 0;
+    width: 20%;
+    z-index: 2;
+    border: 0 !important;
+    outline: 0px !important;
+    font-size: 0;
+}
+
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
