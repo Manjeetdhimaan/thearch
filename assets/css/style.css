@@ -15661,7 +15661,7 @@ label {
 
 .about_image img:last-child {
   position: absolute;
-  left: 20px;
+  left: 40px;
   bottom: 20px;
 }
 
@@ -20473,17 +20473,6 @@ sup{font-size:10px;margin-left:2px;}
                 }
 .zoomBannerImage{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-webkit-animation:zoomin 20s ease-in infinite;animation:zoomin 20s ease-in infinite;transition:all 20s ease-in-out;}
 
-/*#home-banner .item:before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    z-index: 9;
-    background: url(../images/banner_tp_shodow1.png) repeat-x top center;
-    background-size: 100%;
-}*/
 #home-banner .item:before {
     position: absolute;
     top: 0;
@@ -20495,17 +20484,7 @@ sup{font-size:10px;margin-left:2px;}
     background: url(../images/banner_tp_shodow1.png) repeat top center;
     /* background-size: 100%; */
 }
-/*#home-banner .item:after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 400px;
-    content: "";
-    z-index: 9;
-    background: url(../images/banner_bt_shodow1.png) repeat bottom center;
-    background-size: 100%;
-}*/
+
 #home-banner .item:after {
     position: absolute;
     bottom: 0;
@@ -20559,8 +20538,12 @@ img {
 }
 
 /* Position the image container (needed to position the left and right arrows) */
-.container {
+.con {
   position: relative;
+  width: 60%;
+  margin-left: 50%;
+  transform: translate(-50%,-10%);
+
 }
 
 /* Hide the images by default */
@@ -20630,6 +20613,7 @@ img {
 .column {
   float: left;
   width: 16.66%;
+  transition: 3s;
 }
 
 /* Add a transparency effect for thumnbail images */
