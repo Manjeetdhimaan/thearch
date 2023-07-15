@@ -42,6 +42,10 @@
   font-style: normal;
 }
 
+body {
+  background-color: black!important;
+}
+
 .bg-dark-100 {
   background: #1b1b1b;
 }
@@ -15497,7 +15501,7 @@ label {
 }
 
 .footer .footer_inner .footer_social .social_list {
-  display: flex;
+  /* display: flex; */
   flex-flow: row wrap;
   align-items: center;
   padding: 0px;
@@ -15537,6 +15541,11 @@ label {
 
 .twitter {
   background: #1DA1F2;
+  border-radius:50%;
+}
+
+.linkedin {
+  background: #0A66C2;
   border-radius:50%;
 }
 
@@ -15660,14 +15669,16 @@ label {
   position: relative;
 }
 
-.about_image img:last-child {
+/* .about_image img:last-child {
   position: absolute;
   left: 40px;
   bottom: 20px;
-}
+} */
 
 .about_text_inner {
-  padding-left: 2.8125rem;
+  /* padding-left: 2.8125rem; */
+  padding-left: 0.8125rem;
+  padding-right: 0.8125rem;
 }
 
 .about_text {
@@ -18320,6 +18331,7 @@ label {
   padding: 0 calc(2.01875rem + 7.90714vw);
   margin: 0px;
   list-style-type: none;
+  /* background-color: black; */
 }
 
 @media (min-width: 1400px) {
@@ -18848,7 +18860,7 @@ label {
 
 .video_post .ytube_video {
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .video_post .ytube_video #ytvideo {
@@ -18864,8 +18876,8 @@ label {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 210px;
-  height: 210px;
+  width: 155px;
+  height: 155px;
   background: rgba(255, 255, 255, 0.25);
   text-align: center;
   font-size: 5rem;
@@ -19210,6 +19222,7 @@ iframe, object, embed, iframe, object, iframe, video {
   transform: rotateY(-90deg);
   color: white;
   animation: characters 4s infinite;
+  
 }
 
 .preloader-inner .loading-text .characters:nth-child(2):before {
@@ -19250,7 +19263,8 @@ iframe, object, embed, iframe, object, iframe, video {
   100% {
     opacity: 0;
     transform: rotateY(-90deg);
-  }
+    
+  } 
   25%,
   50% {
     opacity: 1;
