@@ -104,6 +104,7 @@ body {
 .bg-lilac {
   /* background: #AA98A9!important; */
   background: #BAB86C!important;
+  padding-left: 3px;
 }
 
 .bg-pastel-green {
@@ -15478,6 +15479,7 @@ label {
     line-height: 5.25rem;
   }
 }
+
 
 .footer .footer_inner .communication .info_body h6, .footer .footer_inner .communication .info_body .h6 {
   color: #a18971;
